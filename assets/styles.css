@@ -1,0 +1,335 @@
+.js-plotly-plot .plotly .modebar {
+  padding-top: 5%;
+  margin-right: 3.5%;
+}
+
+body {
+  background-color: #d7dbde;
+  margin: 5%;
+}
+
+.two.columns {
+  width: 16.25%;
+}
+
+.column,
+.columns {
+  margin-left: 0.5%;
+}
+
+.pretty_container {
+  border-radius: 10px;
+  background-color: #f5f4f4;
+  margin: 10px;
+  padding: 5px;
+  position: relative;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+
+.bare_container {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.dcc_control {
+  margin: 0;
+  padding: 5px;
+}
+
+.dcc_control {
+  width: calc(100% - 40px);
+}
+
+.control_label {
+  margin: 0;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  width: calc(100% - 40px);
+}
+
+.rc-slider {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.flex-display {
+  display: flex;
+}
+
+.container-display {
+  display: flex;
+}
+
+#individual_graph,
+#aggregate_graph {
+  width: calc(100% - 30px);
+  position: absolute;
+}
+
+#count_graph {
+  position: absolute;
+  height: calc(100% - 30px);
+  width: calc(100% - 30px);
+}
+
+#mapboxGraphContainer {
+  flex: 5;
+  position: relative;
+  border: 3px blue solid;
+}
+
+#header {
+  align-items: center;
+  border-left: 25px blue solid;
+  border-right: 3px crimson solid;
+  border-bottom: 3px crimson solid;
+  border-top: 3px crimson solid;
+  box-shadow: 3px 5px 10px 1px #000000;
+  margin: 1px 10px 25px 10px;
+  padding: 5px 5px 5px 5px;
+}
+
+#ktc-image{
+  height: 120px;
+  width: auto;
+}
+
+#learn-more-button {
+  text-align: center;
+  height: 100%;
+  padding: 0 20px;
+  text-transform: none;
+  font-size: 15px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+  box-shadow: 0.5px 0.5px 2px 2px lightgrey;
+}
+#title {
+  text-align: center;
+}
+
+#toptext{
+  margin-bottom:0px;
+  font-weight: bolder;
+}
+
+#bottomtext{
+  margin-top:0px;
+}
+
+#cross-filter-options{
+  padding-left: 40px;
+  border: 3px blue solid;
+}
+
+#ctext, #nctext{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+
+.mini_container {
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+
+#tabs_div{
+    float:right;
+    width:40%
+}
+.custom_tabs{
+
+
+}
+.custom_tabs_container{
+    width: 100%;
+
+}
+.custom_tab{
+
+}
+.custom_tab_selected{
+
+}
+#right-column {
+  display: flex;
+  flex-direction: column;
+}
+
+#wells {
+  flex: 1;
+}
+
+#gas {
+  flex: 1;
+}
+
+#aggregate_data {
+  align-items: center;
+}
+
+#oil {
+  flex: 1;
+}
+
+#water {
+  flex: 1;
+}
+
+#tab_class{
+
+}
+
+#tripleContainer {
+  display: flex;
+  flex: 3;
+}
+
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#pie_graph > div > div > svg:nth-child(3) > g.infolayer > g.legend {
+  pointer-events: all;
+  transform: translate(30px, 349px);
+}
+
+
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,400,700);
+.pc-tab > input,
+.pc-tab section > div {
+    display: none;
+}
+
+#tab1:checked ~ section .tab1,
+#tab2:checked ~ section .tab2,
+#tab3:checked ~ section .tab3 {
+    display: block;
+}
+
+#tab1:checked ~ nav .tab1,
+#tab2:checked ~ nav .tab2,
+#tab3:checked ~ nav .tab3 {
+    color: red;
+}
+
+/* Visual Styles */
+*, *:after, *:before {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    background: #ecf0f1;
+    font-family: 'Raleway';
+}
+
+h1 {
+    text-align: center;
+    font-weight: 100;
+    font-size: 60px;
+    color: #e74c3c;
+}
+
+.pc-tab {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.pc-tab ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pc-tab ul li label {
+    font-family: "Raleway";
+    float: left;
+    padding: 15px 25px;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    background: #eeeeee;
+    color: #444;
+}
+
+.pc-tab ul li label:hover {
+    background: #dddddd;
+}
+
+.pc-tab ul li label:active {
+    background: #ffffff;
+}
+
+.pc-tab ul li:not(:last-child) label {
+    border-right-width: 0;
+}
+
+.pc-tab section {
+    font-family: "Droid Serif";
+    clear: both;
+}
+
+.pc-tab section div {
+    padding: 20px;
+    width: 100%;
+    border: 1px solid #ddd;
+    background: #fff;
+    line-height: 1.5em;
+    letter-spacing: 0.3px;
+    color: #444;
+}
+
+.pc-tab section div h2 {
+    margin: 0;
+    font-family: "Raleway";
+    letter-spacing: 1px;
+    color: #34495e;
+}
+
+#tab1:checked ~ nav .tab1 label,
+#tab2:checked ~ nav .tab2 label,
+#tab3:checked ~ nav .tab3 label {
+    background: white;
+    color: #111;
+    position: relative;
+}
+
+#tab1:checked ~ nav .tab1 label:after,
+#tab2:checked ~ nav .tab2 label:after,
+#tab3:checked ~ nav .tab3 label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #ffffff;
+    left: 0;
+    bottom: -1px;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 14px;
+    color: #CCC;
+    text-align: center;
+}
+
+footer a {
+    color: #AAA;
+    text-decoration: none;
+}

@@ -1,0 +1,58 @@
+aggregating roads with speed varied limits
+#############################################################
+DONE
+
+#madison i-24
+#zoom based on length mapbox
+#hs axis label
+#lwa for hourly volume
+#graph axis ticks same for graphs
+
+#show beginning and ending mps at ends. show mps in hover text as well.
+#KY-0004  0-7mp
+#cardinal =24 hr instead of 14
+#same color for hr plots
+#make it respond to district selection only
+
+
+
+
+##############################################
+
+TO-DO:
+box plots inplace of reliability plots. display reliablility in text  form
+
+heatmaps
+** w
+
+****tti as text; css  put together with box plots instead. remove container from top
+delay graph colors, bar chart check again
+
+
+*plot both directions
+
+
+"mapbox_plot"
+
+
+BUGS
+graph wouldn't plot if yiu select local road (CR) right after selecting district.
+segment length correction - check ipynb
+
+
+***LOTTR all
+
+
+
+
+to-do new
+--loading screen
+
+
+
+
+
+
+
+
+
